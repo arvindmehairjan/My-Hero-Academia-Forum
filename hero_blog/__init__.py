@@ -24,8 +24,10 @@ def create_app(config_class=Config):
     from hero_blog.users.routes import users
     from hero_blog.posts.routes import posts
     from hero_blog.main.routes import main
+    from hero_blog.errors.handlers import errors
     app.register_blueprint(users)
     app.register_blueprint(posts)
     app.register_blueprint(main)
+    app.register_blueprint(errors)
 
     return app
