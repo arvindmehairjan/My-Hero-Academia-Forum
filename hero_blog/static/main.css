@@ -106,3 +106,19 @@ body {
   .btn btn-outline-info {
     margin-top: 3px
   }
+
+  .btn-danger {
+    margin-top: 16px;
+  }
+
+  .modal-title {
+    color: #494949;
+  }
+
+  .modal-body {
+    color: #494949;
+  }
+
+  #picture {
+    color: #494949;
+  }
