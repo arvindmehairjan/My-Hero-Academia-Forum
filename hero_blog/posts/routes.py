@@ -7,7 +7,7 @@ from hero_blog.posts.forms import PostForm
 
 posts = Blueprint('posts', __name__)
 
-@posts.route('/post/new', methods=['GET', 'POST'])
+@posts.route("/post/new", methods=['GET', 'POST'])
 @login_required
 def new_post():
     form = PostForm()
