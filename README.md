@@ -1,4 +1,4 @@
-# MHA Grounds
+#  Studia
 A Flask application where students can create, update and delete posts and share it with others. The user can register for a new account, change its username, email, profile picture and reset its password.
 
 ## Requirements
